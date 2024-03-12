@@ -15,5 +15,5 @@ Repository for future projects for Stats 220
 
 ## Resources
 
-Link to [Project 1](https://preview.redd.it/i-believe-v0-sehlpddw1uec1.png?width=1080&crop=smart&auto=webp&s=c5b8a0548ff21f83b3aac1630d11dc4ecfa53d44) images
+Link to [Project 1] images (TBD)
 
