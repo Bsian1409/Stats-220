@@ -9,5 +9,7 @@ Repository for future projects for Stats 220
 
 **PLEASE DO NOT ASSUME MY WORK IS GOOD**
 
+## Websites used for resources
 
+Link to [Project 1]
 
