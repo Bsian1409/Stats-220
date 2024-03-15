@@ -16,5 +16,4 @@ Repository for future projects for Stats 220
 ## Resources
 
 Links to [Project 1] images (TBD)
-
 [Gif Photos](https://www.youtube.com/watch?v=AEUffI4nAIM&ab_channel=Honkai%3AStarRail)
