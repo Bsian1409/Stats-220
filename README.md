@@ -13,7 +13,13 @@ Repository for future projects for Stats 220
 ## Random links to things I like
 [Cats being stupid](https://www.pinterest.nz/thisjess/weird-cats/)
 
+## Things I dislike
+1. Markdown Syntax
+2. Irony
+3. Lists
+
 ## Resources
 
 Links to [Project 1] images (TBD) <br>
 [Gif Photos](https://www.youtube.com/watch?v=AEUffI4nAIM&ab_channel=Honkai%3AStarRail)
+
