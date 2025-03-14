@@ -21,5 +21,5 @@ Repository for future projects for Stats 220
 ## Resources
 
 Links to [Project 1] images (TBD) <br>
-[Gif Photos]([https://nz.pinterest.com/pin/when-you-finally-finish-your-homework-at-3am--815292338806457503/])
+[Gif Photos](https://nz.pinterest.com/pin/when-you-finally-finish-your-homework-at-3am--815292338806457503/)
 
