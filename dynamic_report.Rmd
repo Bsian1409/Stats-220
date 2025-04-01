@@ -1,0 +1,70 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+
+```
+
+```{css echo=FALSE}
+body{
+  color: white;
+  background-color: black;
+  font-family: Serif;
+}
+pre {
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+```
+
+## Public Transport Behavior Observations
+This first bargraph shows the most commonly observed by Age
+
+
+```{r}
+library(tidyverse)
+# Retrieves and sets data
+raw_dataset <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTd2-Xyt_0QxRVdJY72rzyufJD_uGrZYJxi0wG2HlnCutWcEKd12xx5cXlE0ilpSrVagGKEbt80PZEp/pub?output=csv")
+
+# Creates logged data set and changes names
+logged_data <- raw_dataset %>%
+  rename(transport = 2,
+         time = 3,
+         atmosphere = 4,
+         position = 5,
+         age = 6,
+         activity = 7,
+         gender = 8)
+
+# Creates the first chart for Common Passenger Activities 
+chart1 <- ggplot(logged_data, aes(y = age, fill = activity)) +
+  geom_bar() +
+  labs(title = "Most Common Passenger Activities By Age",
+       x = "Count",
+       y = "Age",
+       fill = "Activity")
+
+print(chart1)
+
+```
+
+This second bargraph shows the activities of passengers based off the general atmosphere of the vehicle
+```{r}
+# Creates second graph for Observed activities
+chart2 <- ggplot(logged_data, aes(x = atmosphere, fill = activity)) +
+  geom_bar() +
+  labs(title = "Observed Activities on Public Transport Based Off Atmosphere",
+       x = "Atmosphere Type",
+       y = "Count",
+       fill = "Activity")
+
+print(chart2)
+```
+
+
+
