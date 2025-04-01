@@ -54,6 +54,7 @@ print(chart1)
 ```
 
 This second bargraph shows the activities of passengers based off the general atmosphere of the vehicle
+
 ```{r}
 # Creates second graph for Observed activities
 chart2 <- ggplot(logged_data, aes(x = atmosphere, fill = activity)) +
