@@ -23,7 +23,6 @@ pre {
 ```
 
 ## Public Transport Behavior Observations
-This first bargraph shows the most commonly observed by Age
 
 
 ```{r}
@@ -53,7 +52,7 @@ print(chart1)
 
 ```
 
-This second bargraph shows the activities of passengers based off the general atmosphere of the vehicle
+This first bargraph shows the most commonly observed by Age. This graph shows that the most common activities by far was passengers using their phones to pass time, closely followed by looking out the window. This showed that the during the times I went to record data the most common age groups of passengers were approximately around 18-30 years old. Within this age range the most common activities was using phones being 50% of the age range. Notably the use of phones decreases as the age range increases, with staring out the window being among common activity amongst those within older age ranges. However, older age ranges are a smaller sample size than young adults, meaning that this observation could be subject to change with as increased sample size.
 
 ```{r}
 # Creates second graph for Observed activities
@@ -67,5 +66,6 @@ chart2 <- ggplot(logged_data, aes(x = atmosphere, fill = activity)) +
 print(chart2)
 ```
 
+This second bargraph shows the mos commonly observed activities on public transport based off the atmosphere of the vehicle. The graph shows that with more empty vehicles, passengers tend to be more quiet focussing on their phones and listing to music. On the other hand, more crowded vehicles tended to be louder with passengers conversing with each other, showing that engagement with other passengers was much more common on vehicles with more passengers.
 
 
